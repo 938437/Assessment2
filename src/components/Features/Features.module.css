@@ -1,0 +1,50 @@
+.header {
+    font-family: var(--heading-font);
+}
+
+.feature h1 {
+    font-family: var(--heading-font);
+    color: var(--dark-blue);
+}
+
+.feature p {
+    font-family: var(--body-font);
+    color: var(--font-grey);
+}
+
+.feature button {
+    font-family: var(--heading-font);
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+.feature button:hover {
+    background-color: var(--red);
+}
+
+.feature_container {
+    display: flex;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (max-width: 820px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .feature_container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .feature_container {
+        display: flex;
+        flex-direction: column;
+    }
+}

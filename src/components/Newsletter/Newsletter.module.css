@@ -1,0 +1,19 @@
+.container h1 {
+    font-family: var(--heading-font);
+    color: var(--dark-blue);
+}
+
+.container p {
+    font-family: var(--body-font);
+    color: var(--font-grey);
+}
+
+.container button {
+    font-family: var(--heading-font);
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+.container button:hover {
+    background-color: var(--red);
+}

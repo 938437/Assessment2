@@ -1,0 +1,40 @@
+.container h1 {
+    font-family: var(--heading-font);
+    color: var(--dark-blue);
+}
+
+.container p {
+    color: var(--font-grey);
+    font-family: var(--body-font);
+}
+
+.container button {
+    font-family: var(--heading-font);
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+.container button:hover {
+    background-color: var(--red);
+}
+
+.intro_container span {
+    display: block;
+}
+
+@media screen and (max-width: 820px) {
+    .animation_container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .intro_container span {
+        display: none;
+    }
+}
